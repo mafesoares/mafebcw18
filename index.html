@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,18 +14,20 @@
 </head>
 
 <body>
-    <div class="header">
-        <img src="./img/logo-dark.png" alt="Logo da SoulCode">
-        <h1>Bootcamp de Java Spring com Angular Web[19]</h1>
-        <p>Turma de Desenvolvimetno Web Full Stack da SoulCode Academy</p>
-    </div>
-    <header class="topnav">
-        <ul>
-            <li><a href="#cadastro">Cadastro</a></li>
-            <li><a href="#trajetoria">Trajetória</a></li>
-            <li><a href="#dicas">Dicas</a></li>
-            <li><a href="#trabalho">Orientações</a></li>
-        </ul>
+    <header>
+        <div class="header">
+            <img src="./img/logo-dark.png" alt="Logo da SoulCode">
+            <h1>Bootcamp de Java Spring com Angular Web[19]</h1>
+            <p>Turma de Desenvolvimetno Web Full Stack da SoulCode Academy</p>
+        </div>
+        <div class="topnav">
+            <ul>
+                <li><a href="#cadastro">Cadastro</a></li>
+                <li><a href="#trajetoria">Trajetória</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#trabalho">Orientações</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <div class="row" id="trajetoria">
@@ -103,18 +104,25 @@
                     <h2>Bootcamp 18</h2>
                     <div class="img" style="height: 100px; background-image: url(./img/3.png);"></div>
                     <p>O que é um Dev Full Stack Web?</p>
-                </div>    
+                </div>
                 <div class="card">
                     <h3>Java Spring</h3>
-                    <div class="img"><p>Hibernate</p></div>
-                    <div class="img"><p>Spring Boot</p></div>
-                    <div class="img"><p>MVC</p></div>
+                    <div class="img">
+                        <p>Hibernate</p>
+                    </div>
+                    <div class="img">
+                        <p>Spring Boot</p>
+                    </div>
+                    <div class="img">
+                        <p>MVC</p>
+                    </div>
                 </div>
                 <div class="card">
                     <h3>Siga-me...</h3>
-                    <p>LinkedIn.com/SoulCodeAcademy</p></div>
+                    <p>LinkedIn.com/SoulCodeAcademy</p>
                 </div>
             </div>
+        </div>
         </div>
         <div class="formContainer" id="cadastro">
             <form action="#" method="">
@@ -180,9 +188,23 @@
             </form>
         </div>
     </main>
-    <footer class="footer">
-        Direitos Reservados a SoulCode Academy
-        Alameda Santos VIP Cooworking 1117, Jardins, São Paulo - SP
+    <footer>
+        <div class="footer">
+            <div class="footerSocial">
+                <div style="flex-grow: 1;"><img class="icone" src="./img/icone1.png"></img></div>
+                <div style="flex-grow: 1;"><img class="icone" src="./img/icone2.png"></img></div>
+                <div style="flex-grow: 1;"><img class="icone" src="./img/icone3.png"></img></div>
+                <div style="flex-grow: 1;"><img class="icone" src="./img/icone 4.png"></img></div>
+                <div style="flex-grow: 1;"><img class="icone" src="./img/icone5.png"></img></div>
+                <div style="flex-grow: 1;"><img class="icone" src="./img/icone6.png"></img></div>
+                <div style="flex-grow: 6;">
+                <p>
+                    Direitos Reservados a SoulCode Academy<br>
+                    Alameda Santos VIP Cooworking 1117, Jardins, São Paulo - SP
+                </p>   
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 

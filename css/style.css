@@ -179,6 +179,34 @@ input[type=reset]:hover {
     font-weight: bold;
 }
 
+.footerSocial{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: wrap;
+}
+
+.footerSocial > div{
+    width: 30px;
+    margin: 10px;
+    text-align: center;
+    line-height: 27px;
+}
+
+.footerSocial > div > img{
+    width: 70px;
+    margin: 15px;
+}
+
+.footerSocial > div > img:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.footerSocial > div > p{
+    font: 14px;
+    text-align: center;
+}
+
 @media screen and (max-width: 600px){
     .col-20, .col-70, input[type=submit], input[type=reset]{
         width: 100%;
@@ -207,4 +235,6 @@ input[type=reset]:hover {
         width: 100%;
         padding: 0;
     }
+
 }
+
